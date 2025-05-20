@@ -1,0 +1,65 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <OutputType>Library</OutputType>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- BepInEx Core -->
+    <Reference Include="BepInEx">
+      <HintPath>libs\BepInEx.dll</HintPath>
+    </Reference>
+
+    <!-- Unity engine core -->
+    <Reference Include="UnityEngine">
+      <HintPath>libs\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>libs\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>libs\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon3Unity3D">
+      <HintPath>libs\Photon3Unity3D.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>libs\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>libs\UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>libs\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+
+    <Reference Include="Facepunch.Steamworks.Win64">
+      <HintPath>libs\Facepunch.Steamworks.Win64.dll</HintPath>
+    </Reference>
+
+    <!-- Photon PUN -->
+    <Reference Include="PhotonUnityNetworking">
+      <HintPath>libs\PhotonUnityNetworking.dll</HintPath>
+    </Reference>
+
+    <!-- Игра -->
+    <Reference Include="Assembly-CSharp">
+      <HintPath>libs\Assembly-CSharp.dll</HintPath>
+    </Reference>
+
+    <Reference Include="0Harmony">
+      <HintPath>libs\0Harmony.dll</HintPath>
+    </Reference>
+
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>libs\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+
+    <Reference Include="PhotonRealtime">
+      <HintPath>libs\PhotonRealtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
